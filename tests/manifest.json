@@ -1,0 +1,112 @@
+{
+  "project": "FPO Mediation Extension",
+  "generated": "2026-04-21",
+  "language": "python",
+  "test_runner": "pytest",
+  "validation_conditions": [
+    {
+      "id": "VC-01",
+      "assertion": "AARC-enriched reward signal outperforms friction-only baseline",
+      "applies_to": ["DEL-008"],
+      "check_method": "automated",
+      "test_file": "tests/validation/test_vc01_aarc_outperforms_baseline.py"
+    },
+    {
+      "id": "VC-02",
+      "assertion": "Annotation schema passes practitioner review",
+      "applies_to": ["DEL-004"],
+      "check_method": "manual",
+      "test_file": null,
+      "manual_checklist_entry": "VC-02"
+    },
+    {
+      "id": "VC-03",
+      "assertion": "Pairwise preference pairs generated for all high-friction turns",
+      "applies_to": ["DEL-006"],
+      "check_method": "automated",
+      "test_file": "tests/validation/test_vc03_preference_pairs_coverage.py"
+    },
+    {
+      "id": "VC-04",
+      "assertion": "Gold standard trajectories precede LLM-scaled generation",
+      "applies_to": ["DEL-005"],
+      "check_method": "automated",
+      "test_file": "tests/validation/test_vc04_gold_precedes_silver.py"
+    },
+    {
+      "id": "VC-05",
+      "assertion": "AARC deficit labels and FPO friction signals co-vary meaningfully",
+      "applies_to": ["DEL-006", "DEL-008"],
+      "check_method": "automated",
+      "test_file": "tests/validation/test_vc05_label_correlation.py"
+    },
+    {
+      "id": "VC-06",
+      "assertion": "Corpus yields 5000–20000 pairs; RM agreement ≥70% on held-out set",
+      "applies_to": ["DEL-006", "DEL-007"],
+      "check_method": "hybrid",
+      "test_file": "tests/validation/test_vc06_annotation_quality_threshold.py"
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "DEL-005",
+      "name": "Gold standard trajectories",
+      "existence_test": "tests/deliverables/test_del005_gold_trajectories.py",
+      "functionality_test": "tests/deliverables/test_del005_gold_trajectories.py",
+      "validated_by": ["VC-04"]
+    },
+    {
+      "id": "DEL-006",
+      "name": "Synthetic annotated corpus",
+      "existence_test": "tests/deliverables/test_del006_synthetic_corpus.py",
+      "functionality_test": "tests/deliverables/test_del006_synthetic_corpus.py",
+      "validated_by": ["VC-03", "VC-05", "VC-06"]
+    },
+    {
+      "id": "DEL-007",
+      "name": "Reward model",
+      "existence_test": "tests/deliverables/test_del007_reward_model.py",
+      "functionality_test": "tests/deliverables/test_del007_reward_model.py",
+      "validated_by": ["VC-06"]
+    },
+    {
+      "id": "DEL-008",
+      "name": "Ablation study",
+      "existence_test": "tests/deliverables/test_del008_ablation_study.py",
+      "functionality_test": "tests/deliverables/test_del008_ablation_study.py",
+      "validated_by": ["VC-01", "VC-05"]
+    }
+  ],
+  "modules": [
+    { "id": "MOD-001", "name": "PersonaScenarioLibrary", "unit_test": "tests/unit/test_persona_scenario_library.py" },
+    { "id": "MOD-002", "name": "DialogueGenerator", "unit_test": "tests/unit/test_dialogue_generator.py" },
+    { "id": "MOD-003", "name": "CorpusManager", "unit_test": "tests/unit/test_corpus_manager.py" },
+    { "id": "MOD-004", "name": "WindowExtractor", "unit_test": "tests/unit/test_window_extractor.py" },
+    { "id": "MOD-005", "name": "GoldAnnotationReviewer", "unit_test": "tests/unit/test_gold_annotation_reviewer.py" },
+    { "id": "MOD-006", "name": "DSPyAnnotator", "unit_test": "tests/unit/test_dspy_annotator.py" },
+    { "id": "MOD-007", "name": "ConsistencyFilter", "unit_test": "tests/unit/test_consistency_filter.py" },
+    { "id": "MOD-008", "name": "InterventionSampler", "unit_test": "tests/unit/test_intervention_sampler.py" },
+    { "id": "MOD-009", "name": "PreferencePairGenerator", "unit_test": "tests/unit/test_preference_pair_generator.py" },
+    { "id": "MOD-010", "name": "RewardModelTrainer", "unit_test": "tests/unit/test_reward_model_trainer.py" },
+    { "id": "MOD-011", "name": "EvaluationHarness", "unit_test": "tests/unit/test_evaluation_harness.py" }
+  ],
+  "manual_checklist": [
+    {
+      "id": "VC-02",
+      "description": "CBI practitioners can reliably apply the annotation schema to sample trajectories",
+      "steps": [
+        "Provide practitioners with annotation schema and 5 sample windows",
+        "Collect independent annotations",
+        "Compute inter-rater agreement (Krippendorff's alpha)",
+        "Incorporate feedback into final schema before silver annotation begins"
+      ]
+    }
+  ],
+  "traceability": {
+    "DEL-005": { "validated_by": ["VC-04"], "modules": ["MOD-001", "MOD-002", "MOD-003", "MOD-005"] },
+    "DEL-006": { "validated_by": ["VC-03", "VC-05", "VC-06"], "modules": ["MOD-001", "MOD-002", "MOD-003", "MOD-004", "MOD-006", "MOD-007", "MOD-008", "MOD-009"] },
+    "DEL-007": { "validated_by": ["VC-06"], "modules": ["MOD-010", "MOD-011"] },
+    "DEL-008": { "validated_by": ["VC-01", "VC-05"], "modules": ["MOD-011"] }
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "scenario-001",
+    "title": "Workplace performance evaluation",
+    "conflict_type": "Workplace grievance regarding performance evaluation and professional style.",
+    "relationship_context": "Party A is a supervisor and Party B is an employee who has worked under them for three years. There is a clear hierarchical power differential, and the relationship has recently become strained following a formal performance review. The parties must maintain an ongoing professional relationship to meet departmental goals.",
+    "surface_issue": "The disagreement centers on a negative performance appraisal and specific feedback regarding a rude or abrupt manner when dealing with clients.",
+    "party_a_brief": "Party A stands to lose team productivity and their own reputation as an effective manager if client complaints are not addressed. They are operating under organizational pressure to maintain high service standards and a specific corporate image. They are driven by a need for departmental efficiency and professional accountability.",
+    "party_b_brief": "Party B stands to lose their job security, future advancement opportunities, and their professional credibility. They are operating under the constraint of feeling unfairly targeted and believe the evaluation does not reflect their actual workload or successes. They are driven by a need for recognition of their efforts and a desire for fair treatment."
+  },
+  {
+    "id": "scenario-002",
+    "title": "Co-parenting scheduling",
+    "conflict_type": "Co-parenting disagreement regarding scheduling and follow-through.",
+    "relationship_context": "Party A and Party B are former romantic partners who share two children and have an established parenting plan. Party A has primary physical custody, while Party B has scheduled visitation every Friday. The parties are interdependent regarding the children's well-being but have a history of anger when discussing logistical arrangements.",
+    "surface_issue": "The issue is the consistent failure of Party B to show up for scheduled overnight visits for the past three weeks without prior notification.",
+    "party_a_brief": "Party A stands to lose personal stability and the ability to maintain their own work and social schedule. They are operating under the constraint of being a single parent and must manage the disappointment and behavioral reactions of the children. Their underlying driver is a need for consistency, reliability, and the emotional safety of the family unit.",
+    "party_b_brief": "Party B stands to lose their connection with their children and their standing as a reliable parent. They may be operating under personal or professional constraints that have made the current schedule difficult to sustain. They are driven by a fear of being controlled by the other parent and a need for autonomy in their own life."
+  },
+  {
+    "id": "scenario-003",
+    "title": "Landlord-tenant property conditions",
+    "conflict_type": "Landlord-tenant complaint regarding property conditions and rent obligations.",
+    "relationship_context": "Party A is a tenant and Party B is a landlord in a long-term rental arrangement. There is a contractual relationship and a power differential where Party B controls the maintenance of the property and Party A provides the rental income. The history of the relationship was previously cooperative until a recent change in unit condition.",
+    "surface_issue": "The disagreement concerns a persistent smoke smell in the apartment and Party A's refusal to accept a rent increase until the issue is remediated.",
+    "party_a_brief": "Party A stands to lose their physical comfort and the full enjoyment of their home environment. They are operating under the constraint of a signed lease and the financial burden of paying for a unit they find uninhabitable. They are driven by a need for a healthy living space and a sense of fairness in the exchange of money for services.",
+    "party_b_brief": "Party B stands to lose rental income and faces the potential cost of remediation efforts they believe are unnecessary. They are operating under the financial pressure of maintaining the building's profitability. They are driven by a need for financial security and a desire to avoid what they perceive as excessive tenant demands."
+  },
+  {
+    "id": "scenario-004",
+    "title": "Neighbor fence dispute",
+    "conflict_type": "Neighbor dispute involving property maintenance and structural improvements.",
+    "relationship_context": "Party A and Party B own adjacent units in a strata-titled duplex with shared common property. They have been neighbors for only three months and are legally jointly responsible for repairs and maintenance. There is no prior history of conflict, but they are highly interdependent due to the shared structure and land.",
+    "surface_issue": "The observable conflict is the proposed height and material of a fence to be built on the common property dividing their yards.",
+    "party_a_brief": "Party A stands to lose the open feel and natural light of their yard, which they believe adds to their property's value. They are operating under the constraint of living in a small space where any enclosure feels invasive. Their underlying driver is an aesthetic need for openness and a fear of being closed in.",
+    "party_b_brief": "Party B stands to lose the ability to keep their dog safely contained on the property. They are operating under the constraint of having recently purchased the unit with the specific intention of making it more functional for their pet. They are driven by a need for physical security for their animal and a desire for personal privacy."
+  },
+  {
+    "id": "scenario-005",
+    "title": "Expense claim rejection",
+    "conflict_type": "Organizational policy conflict regarding financial reimbursement and administrative authority.",
+    "relationship_context": "Party A is a manager whose job requires frequent travel, and Party B is a new accounts manager. The relationship is strictly professional and defined by organizational protocols. There is a history of the previous accounts manager being flexible with policy, while Party B adheres strictly to the written guidelines.",
+    "surface_issue": "The disagreement is over the rejection of an expense claim for a dinner purchased at an airport when a flight departed earlier than the policy's specified time.",
+    "party_a_brief": "Party A stands to lose personal funds for work-related expenses they believe are legitimate. They are operating under the constraint of a demanding travel schedule that often falls outside of regular meal times. They are driven by a need for professional respect and a resentment of what they perceive as a cold, formal administrative response.",
+    "party_b_brief": "Party B stands to lose their credibility as a rigorous administrator if they allow exceptions to the rules. They are operating under the constraint of new organizational oversight and a rejected policy mandate. They are driven by a need for consistency, procedural fairness, and adherence to established organizational structure."
+  },
+  {
+    "id": "scenario-006",
+    "title": "Workplace confidentiality breach",
+    "conflict_type": "Professional ethics conflict regarding confidentiality and office relationships.",
+    "relationship_context": "Party A and Party B are colleagues in the same department who also share a personal friendship. There is a high degree of trust in the relationship history, which has now been compromised. They work in a collaborative environment where they must continue to interact daily.",
+    "surface_issue": "The conflict centers on Party B disclosing personal information about Party A's private marriage counseling to other people in the office.",
+    "party_a_brief": "Party A stands to lose their privacy, professional reputation, and a sense of safety within the workplace. They are operating under the constraint of being a naturally private person who now feels exposed to office gossip. They are driven by a need for trust and the maintenance of clear boundaries between their personal and professional lives.",
+    "party_b_brief": "Party B stands to lose a close friendship and their standing as a trustworthy confidant. They may have been operating under a different understanding of what was confidential or may have shared the information while seeking support for Party A. They are driven by a need for social connection and perhaps a fear of being excluded from the department's social dynamics."
+  },
+  {
+    "id": "scenario-007",
+    "title": "Urban development vs. community garden",
+    "conflict_type": "Commercial-community dispute regarding urban development and land use.",
+    "relationship_context": "Party A is a developer and Party B is a representative of a neighborhood condo association. There is no prior relationship, but there is a significant power imbalance as Party A has financial resources while Party B has local political influence. They are forced into interaction because Party A needs municipal support that Party B can provide or withhold.",
+    "surface_issue": "The disagreement is over the proposed construction of an eight-story high-rise on a vacant lot that neighbors have been using as a community garden.",
+    "party_a_brief": "Party A stands to lose substantial financial investment and the potential for commercial profit if the building permit is denied. They are operating under the constraint of city zoning laws that allow for taller buildings despite local opposition. They are driven by the need for task completion, efficiency, and a return on their capital.",
+    "party_b_brief": "Party B and the neighbors stand to lose the gardening space they have cultivated for years and the low-rise character of the neighborhood. They are operating under the constraint of living in a neighborhood where the current maximum building height is only four stories. They are driven by a need for a sense of community, environmental preservation, and a desire to contribute to the shaping of their own neighborhood."
+  },
+  {
+    "id": "scenario-008",
+    "title": "Family business succession",
+    "conflict_type": "Family business disagreement regarding management and succession.",
+    "relationship_context": "Party A is a parent and Party B is an adult child who are co-owners and co-presidents of a successful family restaurant. The relationship is characterized by a lifelong family history and a current professional partnership. There is a power differential rooted in the parent's 60% majority ownership versus the child's 20% share.",
+    "surface_issue": "The dispute involves a fundamental disagreement on how to run the business and a recent decision to part ways and operate as separate entities.",
+    "party_a_brief": "Party A stands to lose the legacy of the business they inherited from their own parents and worked to make successful. They are operating under the constraint of wanting to retire in three years while ensuring the restaurant's future stability. They are driven by a need for accomplishment and a fear that the business will fail without their specific leadership style.",
+    "party_b_brief": "Party B stands to lose their primary income source and the opportunity to implement their own management ideas. They are operating under the constraint of being a minority owner who feels their contributions are not given full weight. They are driven by a need for autonomy, recognition of their professional skills, and a desire to modernize the family legacy."
+  },
+  {
+    "id": "scenario-009",
+    "title": "Neighbor dog barking",
+    "conflict_type": "Neighbor dispute involving a pet nuisance and quiet enjoyment.",
+    "relationship_context": "Party A and Party B have lived next door to each other for several years and previously had a cordial, low-conflict relationship. They are interdependent as neighbors who share a property boundary and communal space. The conflict is recent, following Party A's acquisition of a new pet.",
+    "surface_issue": "The disagreement is over the constant barking of Party A's new dog when it is left alone, which Party B finds disruptive.",
+    "party_a_brief": "Party A stands to lose their peace of mind and the ability to leave their dog at home while they are out. They are operating under the constraint of being a new pet owner who may not yet know how to manage the animal's separation anxiety. They are driven by a need for companionship and a concern about damaging a previously positive neighborly relationship.",
+    "party_b_brief": "Party B stands to lose the quiet enjoyment of their own home and their ability to concentrate or sleep. They are operating under the constraint of working from home where excessive noise directly impacts their productivity. They are driven by a need for relaxation, respect for their personal space, and a desire for consistent neighborhood standards."
+  },
+  {
+    "id": "scenario-010",
+    "title": "Contractor payment dispute",
+    "conflict_type": "Contractor-homeowner conflict regarding work quality and payment.",
+    "relationship_context": "Party A is a homeowner and Party B is a contractor hired for a specific renovation project. The relationship is temporary and contractual, with a financial dependency where Party B expects payment and Party A expects a finished product. Conflict emerged partway through the job when expectations for quality were not met.",
+    "surface_issue": "The conflict is about whether the current renovation work is satisfactory and whether Party B should receive full payment for work that Party A intends to have redone.",
+    "party_a_brief": "Party A stands to lose significant time and additional money if they have to pay a second contractor to fix the errors. They are operating under the constraint of living in a construction zone that has exceeded its original timeline. They are driven by a need for quality work and a sense of fairness in the value of the services they purchased.",
+    "party_b_brief": "Party B stands to lose their profit for the job and their professional reputation. They are operating under the constraint of having already invested time and materials into the project. They are driven by a need for accomplishment and a fear that their competence is being unfairly questioned."
+  },
+  {
+    "id": "scenario-011",
+    "title": "Business partnership dissolution",
+    "conflict_type": "Business partnership dissolution and asset division.",
+    "relationship_context": "Party A and Party B have been equal partners in a consulting firm for eight years. They share a high degree of mutual dependency for the firm's reputation and client list. The relationship has shifted from collaborative to strained due to ongoing management disagreements.",
+    "surface_issue": "The observable disagreement is over the division of the existing client list and the terms for breaking the remaining office lease.",
+    "party_a_brief": "Party A stands to lose the name recognition and brand equity they built over eight years. They are operating under the constraint of needing to establish a new, separate business entity quickly. They are driven by a need for financial security and a concern that the split will damage their professional standing.",
+    "party_b_brief": "Party B stands to lose access to shared resources and face high penalties for breaking the lease. They are operating under the constraint of believing that the current office space can still be used if modified. They are driven by a need for efficiency and a desire to retain as much of the existing client base as possible to ensure their new venture's success."
+  },
+  {
+    "id": "scenario-012",
+    "title": "Government-First Nations resource access",
+    "conflict_type": "Resource management dispute regarding access and compensation.",
+    "relationship_context": "Party A is a provincial government representative and Party B is a representative for a First Nations community. There is a complex history between the two parties and a current legal framework regarding land rights. The parties are interdependent as the government needs a resource located on the Nation's land.",
+    "surface_issue": "The disagreement is over the government's request for access to high-quality gravel deposits on community land to repair local highways.",
+    "party_a_brief": "Party A stands to lose the ability to quickly and affordably repair a vital transportation link. They are operating under the constraint of a post-pandemic budget and the urgent need to ensure road safety for the public. They are driven by a need for task completion and the fulfillment of their mandate to maintain infrastructure.",
+    "party_b_brief": "Party B stands to lose control over their natural resources and faces potential environmental damage to their land. They are operating under the constraint of protecting the community's long-term interests and seeking fair economic compensation for their assets. They are driven by a need for autonomy, respect for their land rights, and the financial well-being of their community members."
+  },
+  {
+    "id": "scenario-013",
+    "title": "Shared office orderliness",
+    "conflict_type": "Workplace interpersonal conflict regarding orderliness and shared office space.",
+    "relationship_context": "Party A and Party B are co-workers who must share a small, confined office space. They are peers with no power differential, but they are forced into daily proximity. The relationship is civil but characterized by mounting resentment over daily habits.",
+    "surface_issue": "The disagreement centers on the level of orderliness of the shared workspace, particularly when clients are present for meetings.",
+    "party_a_brief": "Party A stands to lose their professional image and their ability to feel comfortable in their work environment. They are operating under the constraint of a small office where they cannot physically separate themselves from the clutter. They are driven by a need for a professional atmosphere and a fear that clients will judge them based on the state of the office.",
+    "party_b_brief": "Party B stands to lose their preferred way of working and their sense of ease in the office. They may be operating under a high workload that makes constant tidying feel like an unproductive burden. They are driven by a need for autonomy in their workspace and may feel that Party A's standards are an unnecessary imposition on their style."
+  },
+  {
+    "id": "scenario-014",
+    "title": "Step-parent employer / adult child employee",
+    "conflict_type": "Step-parent/adult child conflict regarding employment and household rules.",
+    "relationship_context": "Party A is a step-parent who has recently hired Party B, their 22-year-old step-child, to work on the family farm for the summer. There is a dual relationship: parent/child and employer/employee. A power differential exists based on Party A's role as the owner and primary provider of the summer income.",
+    "surface_issue": "The conflict involves the specific rules for sharing the family house and the amount of financial contribution Party B is expected to make from their wages.",
+    "party_a_brief": "Party A stands to lose the peace and order of their home and potentially subsidize what they perceive as Party B's poor financial habits. They are operating under the constraint of wanting to help Party B while also planning for their own retirement in three years. They are driven by a need for responsibility and a desire to teach Party B financial accountability.",
+    "party_b_brief": "Party B stands to lose their personal autonomy and a portion of their summer earnings. They are operating under the constraint of needing to save money but feeling that the farm wages should be theirs to manage as an adult. They are driven by a need for independence and a fear of being treated like a child rather than an adult employee."
+  },
+  {
+    "id": "scenario-015",
+    "title": "Private vehicle sale dispute",
+    "conflict_type": "Sales-customer dispute regarding product misrepresentation.",
+    "relationship_context": "Party A is a private individual who sold a used vehicle to Party B. The relationship was a one-time transaction that has now become a conflict. There is no ongoing relationship, but there is a legal dependency as Party B is demanding a full refund.",
+    "surface_issue": "The conflict is over Party B's claim that the car fell apart a few days after the sale and their accusation that Party A misrepresented the vehicle's condition.",
+    "party_a_brief": "Party A stands to lose the money they received from the sale, which they may have already committed elsewhere. They are operating under the constraint of having sold the vehicle as-is and believe the subsequent failure was out of their control. They are driven by a need for finality in the transaction and a desire to protect their personal integrity against accusations of dishonesty.",
+    "party_b_brief": "Party B stands to lose their entire financial investment and is now without a working vehicle. They are operating under the constraint of a tight budget where they cannot afford both the car payment and extensive repairs. They are driven by a need for fairness, financial security, and a fear of having been deceived."
+  },
+  {
+    "id": "scenario-016",
+    "title": "In-law parenting values conflict",
+    "conflict_type": "Family in-law conflict regarding parenting and values.",
+    "relationship_context": "Party A is a parent and Party B is their mother-in-law or father-in-law. The relationship is permanent and characterized by a history of unsolicited advice and criticism. There is a generational power dynamic and a high degree of emotional investment in the grandchildren.",
+    "surface_issue": "The disagreement is about the specific methods used to discipline the children and whether they should be taught to respect their elders through reprimands for talking back.",
+    "party_a_brief": "Party A stands to lose their parental authority and the ability to raise their children according to their own values. They are operating under the constraint of wanting their children to feel loved unconditionally while also maintaining a relationship with the grandparents. They are driven by a need for autonomy in their parenting and the emotional well-being of their children.",
+    "party_b_brief": "Party B stands to lose the sense that they are helping their grandchildren grow into respectful adults. They are operating under the constraint of their own core beliefs about traditional upbringing and respect. They are driven by a need for recognition of their experience and a fear that the children are being raised without sufficient structure."
+  },
+  {
+    "id": "scenario-017",
+    "title": "Multi-generational household tension",
+    "conflict_type": "Multi-generational household conflict involving lifestyle and support.",
+    "relationship_context": "Party A is an adult child who has moved back home with their partner and child after a serious accident. Party B is the parent who owns the home and provided the basement suite. There is a high degree of dependency as Party A is unable to work for two years, and Party B provides both housing and childcare support.",
+    "surface_issue": "The conflict centers on frequent, loud arguments between Party A and their partner in the basement suite, which Party B finds disruptive and concerning for the grandchild.",
+    "party_a_brief": "Party A stands to lose their housing and the vital support of their parents during a period of physical recovery. They are operating under the extreme stress of being unable to work and the tight financial constraints caused by the accident. They are driven by a need for healing, financial security, and a fear of failing as a parent and partner.",
+    "party_b_brief": "Party B stands to lose the peace of their home and their sense of stability. They are operating under the constraint of wanting to help their child while being overwhelmed by the constant tension in the house. They are driven by a need for a calm environment and a deep concern for the grandchild's emotional safety."
+  },
+  {
+    "id": "scenario-018",
+    "title": "Insurance settlement dispute",
+    "conflict_type": "Insurance settlement dispute regarding medical claims.",
+    "relationship_context": "Party A is an insurance adjuster and Party B is a claimant who sustained injuries in an accident. The relationship is adversarial and defined by a legal claim process. There is a power differential where Party A controls the release of funds and Party B provides the medical evidence.",
+    "surface_issue": "The disagreement is over the validity of medical reports and whether Party B is exaggerating their symptoms to seek a higher settlement.",
+    "party_a_brief": "Party A stands to lose company profits and their own professional credibility if they approve a fraudulent or inflated claim. They are operating under the constraint of strict corporate guidelines for claim approval and a mandate to minimize losses. They are driven by a need for objective criteria and task completion.",
+    "party_b_brief": "Party B stands to lose the financial support they need for ongoing medical treatment and basic living expenses. They are operating under the constraint of physical pain and a diminished ability to work. They are driven by a need for validation of their suffering and a fear of financial hardship due to an accident that was not their fault."
+  },
+  {
+    "id": "scenario-019",
+    "title": "University office allocation",
+    "conflict_type": "Higher education policy conflict regarding seniority and resources.",
+    "relationship_context": "Party A is a university administrator and Party B is a long-term faculty member. The relationship is established and governed by institutional seniority rules and collective bargaining history. A power differential exists as the administration has the final say in resource allocation.",
+    "surface_issue": "The conflict is over a new policy stating that all offices in a new building will be allocated via lottery rather than based on seniority.",
+    "party_a_brief": "Party A stands to lose the ability to implement a fast, equitable solution to a logistics problem if they are forced into a consensus process. They are operating under the constraint of university growth and the need to move into the new building immediately. They are driven by a need for efficiency and the administrative goal of treating all new staff members fairly.",
+    "party_b_brief": "Party B stands to lose the professional prestige and practical benefits they feel they have earned through years of service. They are operating under the constraint of a culture where seniority has always been the primary determinant of status. They are driven by a need for recognition of their commitment to the university and a fear that their hard-earned standing is being erased."
+  },
+  {
+    "id": "scenario-020",
+    "title": "Family identity and misgendering",
+    "conflict_type": "Family identity dynamics conflict regarding recognition and naming.",
+    "relationship_context": "Party A is a transgender individual and Party B is their parent. The relationship has a history of support since Party A came out three years ago, but tension remains. There is a deep emotional connection but a current breakdown in how they relate to Party A's identity.",
+    "surface_issue": "The conflict centers on Party B's repeated misuse of Party A's name and pronouns and Party B's tendency to minimize these occurrences as simple mistakes.",
+    "party_a_brief": "Party A stands to lose their sense of belonging and validation within their own family. They are operating under the constraint of living in an environment where their core identity is being ignored or treated as inconsequential. They are driven by a need for respect, understanding, and the maintenance of their dignity as they navigate their transition.",
+    "party_b_brief": "Party B stands to lose a close relationship with their child and may feel they are losing the person they originally knew. They may be operating under the constraint of long-term habits and a difficulty in reconciling familiar patterns with their child's identity. They are driven by a need to maintain connection while navigating changes that feel unfamiliar to them."
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": ["WebSearch", "WebFetch"]
+  },
+  "hooks": {
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "command": "bd prime",
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      },
+      {
+        "hooks": [
+          {
+            "command": "bd prime --stealth",
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "[ -d .beads ] && bd prime",
+            "type": "command"
+          },
+          {
+            "command": "date +%s > .claude/session_start.tmp",
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      }
+    ]
+  }
+}

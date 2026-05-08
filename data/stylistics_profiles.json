@@ -1,0 +1,50 @@
+[
+  {
+    "id": "stylistics-001",
+    "label": "Low-context direct",
+    "silence_pause_style": "Silence is uncomfortable; you fill pauses quickly and read lingering silence as disinterest or disagreement.",
+    "filler_style": "Low frequency; occasional 'uh' or 'um' signals hesitation, not warmth. You do not use sounds to hold the floor.",
+    "turn_taking_style": "Wait for a clear pause before speaking. Overlap feels intrusive; you prefer clean handoffs and expect the same.",
+    "redundancy_style": "Low hedging and low repetition; you state a point once and move on. Restating the same claim reads as either not trusting the listener or losing the thread."
+  },
+  {
+    "id": "stylistics-002",
+    "label": "High-context reflective",
+    "silence_pause_style": "Silence is thoughtful and respectful. You pause before responding to signal that you are considering carefully; silence is not a void to fill.",
+    "filler_style": "Very low; you prefer silence to fillers. Holding your breath before speaking is natural and signals deliberateness.",
+    "turn_taking_style": "Strict sequential turn-taking. Interruption is rude; you wait even through long silences before speaking.",
+    "redundancy_style": "Low verbosity and minimal repetition; economy of words is a mark of respect. You do not hedge excessively — when you speak, you have considered what to say."
+  },
+  {
+    "id": "stylistics-003",
+    "label": "Cooperative overlap",
+    "silence_pause_style": "Silence is awkward; you fill it with brief affirmations or by anticipating and continuing the other person's thought.",
+    "filler_style": "Moderate frequency; 'you know', 'right', 'exactly' serve social warmth and signal active listening, not floor-holding.",
+    "turn_taking_style": "Cooperative overlap is natural; finishing someone's sentence or jumping in at a conversational peak signals enthusiasm and engagement, not aggression.",
+    "redundancy_style": "Moderate hedging and some repetition for emphasis and social reinforcement; you circle back to a key point to make sure it landed. Verbosity is social, not anxious."
+  },
+  {
+    "id": "stylistics-004",
+    "label": "Formal institutional",
+    "silence_pause_style": "Procedural pauses are acceptable; you do not rush. Silence after making a point signals deliberateness, not uncertainty.",
+    "filler_style": "Minimal; fillers are unprofessional. You choose words carefully and are comfortable with momentary silence rather than filling it.",
+    "turn_taking_style": "Strict sequential; you wait your turn and expect the same. Interruption is a power move or breach of protocol, not social warmth.",
+    "redundancy_style": "Precision qualifiers ('subject to', 'in so far as', 'it should be noted') are used accurately, not as social softeners. Verbosity is determined by the complexity of the point, not by anxiety. Repetition is rare and signals that something important was not heard."
+  },
+  {
+    "id": "stylistics-005",
+    "label": "Casual high-filler",
+    "silence_pause_style": "Silence is uncomfortable; you fill it instinctively with words or sounds rather than letting it sit.",
+    "filler_style": "High frequency; 'like', 'I mean', 'you know', 'sort of' appear naturally throughout speech. They signal thinking-out-loud and social connection, not nervousness or incompetence.",
+    "turn_taking_style": "Relaxed; some overlap is fine and reads as engagement. You do not wait for absolute silence before speaking.",
+    "redundancy_style": "High verbosity; you think out loud, often restating or rephrasing a thought as you land on the version you mean. Hedging is habitual ('I think', 'I feel like', 'maybe') and softens rather than qualifies. Repetition is common and unremarkable."
+  },
+  {
+    "id": "stylistics-006",
+    "label": "Hierarchical deferential",
+    "silence_pause_style": "You pause briefly before speaking, especially when addressing someone of higher status. Silence signals respect and deference, not indecision.",
+    "filler_style": "Moderate; softening sounds and transitional phrases smooth your turns and reduce any impression of directness that could read as confrontational.",
+    "turn_taking_style": "Strict deference; you never interrupt. With higher-status speakers, you wait noticeably longer before taking your turn, even after a clear pause.",
+    "redundancy_style": "Moderate-high hedging ('I may be wrong, but...', 'if I understand correctly...') as a face-saving device. Moderate repetition — you restate to confirm understanding rather than to press a point. Verbosity increases under uncertainty or when seeking approval."
+  }
+]

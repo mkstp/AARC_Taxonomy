@@ -1,0 +1,23 @@
+# Core
+anthropic>=0.25
+openai>=1.30
+python-dotenv>=1.0
+dspy>=2.4
+groq>=0.9
+transformers>=4.40
+torch>=2.2
+datasets>=2.19
+krippendorff>=0.6
+scipy>=1.13
+pandas>=2.2
+
+# Testing
+pytest>=8.0
+pytest-asyncio>=0.23
+pytest-mock>=3.12
+responses>=0.25
+
+# Development
+black>=24.0
+ruff>=0.4
+mypy>=1.10

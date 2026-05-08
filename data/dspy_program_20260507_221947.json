@@ -1,0 +1,57 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "dialogue_context": "Focal speaker: Party A\n\n    [ 0]  Party A: So. You got the memo.\n\nI'm assuming that's why you're here.\n    [ 1]  Party B: Yeah.\n\n*beat*\n\nI got it.\n  ► [ 2]  Party A: Okay.\n\n*pause*\n\nSo what do you need from me.",
+        "acknowledgement_deficit": false,
+        "agency_deficit": false,
+        "reciprocity_deficit": false,
+        "clarity_deficit": false
+      },
+      {
+        "augmented": true,
+        "dialogue_context": "Focal speaker: Party A\n\n    [ 0]  Party A: You did it again at dinner. In front of everyone.\n    [ 1]  Party B: I know. I know, I — \n\nIt wasn't... I wasn't trying to.\n\n*pause*\n\nIt came out before I caught it. That's not an excuse, I'm just — that's what happened.\n    [ 2]  Party A: I know you weren't trying to.\n\n*beat*\n\nThat's kind of — that's not really the part that matters.\n    [ 3]  Party B: Yeah.\n\n*pause*\n\nNo, I hear you. I do.\n\nIt's just — I keep coming back to that because I don't know what else to... I mean, what else do I have to offer you right now except that I didn't mean it.\n\n*quieter*\n\nWhich I know isn't the point. You just said that.\n  ► [ 4]  Party A: I'm not asking you to offer me anything.\n\n*pause*\n\nThat's not... this isn't about what you owe me or whatever. It's just — I need it to stop happening. That's the whole thing. That's it.",
+        "acknowledgement_deficit": false,
+        "agency_deficit": false,
+        "reciprocity_deficit": false,
+        "clarity_deficit": false
+      }
+    ],
+    "signature": {
+      "instructions": "Read the formatted dialogue excerpt and label the marked focal turn for four speaker-attributed deficit signals: `acknowledgement_deficit`, `agency_deficit`, `reciprocity_deficit`, and `clarity_deficit`.\n\nKey rules:\n- Judge the focal speaker’s current stance in the marked turn, using the surrounding context window to detect buildup, persistence, or repair.\n- Apply this interpretive priority: **Acknowledgement → Agency → Reciprocity → Clarity**. Prefer the earliest fitting diagnosis when signals overlap, and do not let a later category absorb what is better explained by an earlier one.\n- Labels describe what the **focal speaker is exhibiting or lacking**, not what the other speaker is doing to them.\n- Mark a deficit **False only if there is positive evidence of repair, uptake, clarification, or restored footing**. Mere pause, topic shift, or temporary softening is not enough.\n\nOperational guidance by label:\n- **Acknowledgement deficit**: True when the focal speaker shows an unmet need to have their experience recognized or legitimized, e.g. self-justifying their right to feel or complain, rehearsing invalidation, or invoking outside consensus to secure recognition.\n- **Agency deficit**: True when the focal speaker presents themselves as unable to act, influence, choose, or proceed—through helplessness, procedural resignation, deferral, or disengaged compliance.\n- **Reciprocity deficit**: True when the focal speaker treats the exchange as adversarial, positional, withholding, scorekeeping, leverage-building, or dismissive of the other party’s standing.\n- **Clarity deficit**: True when the focal speaker proceeds on unverified assumptions, mind-reading, overconfident inference, or unresolved vagueness despite an opportunity for concrete clarification. Explicitly naming uncertainty or inviting clarification counts as repair, not deficit.\n\nImportant boundaries:\n- Do **not** label based on tone, bluntness, institutional constraint, or lack of warmth alone.\n- Procedural firmness, concise answers, or boundary-setting are not deficits unless they instantiate one of the four categories.\n- A speaker can be tense, defensive, or imperfectly polished and still have all four labels False.\n- If the focal speaker clarifies scope, distinguishes processes, invites evidence, answers the immediate question, or narrows ambiguity, that is evidence against clarity deficit.\n- If the focal speaker offers a real path forward, identifies what they can do, or makes a concrete commitment, that is evidence against agency deficit.\n- If the focal speaker directly takes up the other person’s concern without turning it into leverage or contest, that is evidence against reciprocity deficit.\n- If the focal speaker recognizes what was implied, names the other person’s concern, or legitimizes the issue without requiring self-protective hedging from themselves, that is evidence against acknowledgement deficit.\n\nOutput exactly four booleans for the focal turn:\n- `acknowledgement_deficit`\n- `agency_deficit`\n- `reciprocity_deficit`\n- `clarity_deficit`",
+      "fields": [
+        {
+          "prefix": "Dialogue Context:",
+          "description": "Formatted dialogue excerpt. Focal speaker identified at top; focal turn marked ►; 7-turn context window."
+        },
+        {
+          "prefix": "Acknowledgement Deficit:",
+          "description": "True if the focal speaker exhibits an unmet need for recognition — hedging their own legitimacy, cataloguing grievances, or recruiting imagined consensus to validate unacknowledged experience."
+        },
+        {
+          "prefix": "Agency Deficit:",
+          "description": "True if the focal speaker exhibits perceived foreclosure on their ability to influence the situation — explicit constraint narratives, procedural avoidance, or nominal disengaged participation."
+        },
+        {
+          "prefix": "Reciprocity Deficit:",
+          "description": "True if the focal speaker treats the interaction as positional or zero-sum: positional language, withholding, stockpiling grievances as leverage, or dismissing the other party's standing."
+        },
+        {
+          "prefix": "Clarity Deficit:",
+          "description": "True if the focal speaker silently crosses an epistemic gap — proceeds on unverified intent attribution, overcertain inference, or vague language that persists despite concrete engagement from the other party. Naming a gap and inviting resolution is a repair move, not a deficit."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}
