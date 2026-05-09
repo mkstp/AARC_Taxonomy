@@ -10,7 +10,7 @@ archive/
 
 #Claude specific
 .claude*
-claude.md
+CLAUDE.md
 
 # Python
 __pycache__/
